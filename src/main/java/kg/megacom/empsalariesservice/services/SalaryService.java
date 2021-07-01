@@ -6,4 +6,6 @@ import kg.megacom.empsalariesservice.models.dto.EmployeeDto;
 public interface SalaryService {
 
     void setSalaryForEmployee(double salary, Employee employee);
+
+    double findCurrentSalary(Employee employee);
 }
